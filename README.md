@@ -77,7 +77,7 @@ class Perceptron:
     return np.where(self.f(x) >= 0,1,-1) 
 ```
 
-```python
+```
 df = pd.read_csv("C:\Users\chief\OneDrive\Documents\Experiment-2--Implementation-of-Perceptron\IRIS.csv")
 df.head()
 
